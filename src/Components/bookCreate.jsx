@@ -9,7 +9,7 @@ import Text from './myText.jsx'
 import Mybutton from './myButton.jsx';
 import { useNavigate } from 'react-router-dom'
 import '../Styles/Book.css'
-const bookCreate = () => {
+const BookCreate = () => {
     const [name, setname] = useState('');
     const [photo, setphoto] = useState('');
     const [authorId, setauthorid] = useState('');
@@ -193,4 +193,4 @@ const bookCreate = () => {
         </div>
         );
     };
-export default bookCreate
+export default BookCreate;
