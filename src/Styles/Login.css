@@ -1,0 +1,81 @@
+.email{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.847);
+    padding: 3px 0px 3px 15px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.email p{
+    font-size: 14px;
+}
+.pass{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.847);
+    padding: 3px 0px 3px 15px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 5px 0px 5px 15px;
+    background-color: transparent;
+}
+.Login h4{
+    color:aliceblue;
+    font-size: 18px;
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border: 1.5px solid rgba(235, 235, 235, 0.848);
+    border-radius: 10px;
+    padding: 0px 10px 7px 10px;
+    box-shadow: 5px 5px 5px rgba(247, 247, 247, 0.506);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    height: 270px;
+    width: 320px;
+}
+.Log{
+    background-image: url("../images//library-869061_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.button button{
+    color:white;
+    background-color: rgb(87, 143, 3);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.3s all ease-in-out;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button button:hover{
+    transform: translateY(-5px);
+    background-color: rgb(151, 226, 113);
+    color: rgb(26, 25, 25);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}

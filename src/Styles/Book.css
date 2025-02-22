@@ -1,0 +1,203 @@
+h6{
+    display: none;
+}
+.book-category{
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+.Book-cont{
+    height: 100vh;
+    display: flex;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+    width: 200px;
+    height: 90vh;
+    border-radius: 10px;
+    border-right: 2.5px solid rgba(150, 150, 150, 0.643);
+    padding: 10px 10px 10px 0px;
+}
+.category button{
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    transition: 0.35s all ease-in-out;
+    font-size: 14px;
+    width: 170px;
+    box-shadow: 0.5px 0.5px 0.5px #9c9b9baf;
+}
+.category button:hover{
+    transform: translateX(7px);
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+.book-cat{
+    display: flex;
+    width: 400px;
+    gap: 15px;
+}
+.book-item{
+    box-shadow: 1px 1px 1px #9c9b9baf;
+    padding: 0px 10px 5px 10px;
+    border-radius: 10px;
+}
+.book-item p{
+    border-radius: 20px;
+    margin-top: -3px;
+}
+.book-item button{
+    color:white;
+    background-color: rgb(87, 143, 3);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.3s all ease-in-out;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 3px;
+}
+.book-item button:hover{
+    transform: translateX(7px);
+    background-color: rgb(151, 226, 113);
+    color: rgb(26, 25, 25);
+}
+.book-item img{
+    border-radius: 20px;
+}
+.cat-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.847);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.catud{
+    margin-top: -5px;
+    cursor: pointer;
+}
+.burtgel-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border: 2px solid rgba(235, 235, 235, 0.848);
+    border-radius: 10px;
+    padding: 0px 10px 7px 10px;
+    box-shadow: 2px 3px 3px rgba(247, 247, 247, 0.506);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    height: max-content;
+    width: max-content;
+}
+.book-input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.847);
+    padding: 3px 0px 3px 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.Sanch-book h6{
+    display: none;
+}
+.Sanch-book{
+    padding-top: 43px;
+}
+.zahialgas{
+    margin-left: 0px;
+}
+.user-Data{
+    margin: 50px 20px 0px 0px;
+    box-shadow: 0.7px 0.7px 0.7px #9c9b9baf;
+    padding: 2px 7px 2px 7px;
+    border-radius: 15px;
+}
+.navhh{
+    margin-top: 48px;
+    color: black;
+}
+.navhh .backbtn{
+    background-color: rgb(88, 86, 86);
+    color:black;
+}
+.navhh button{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-color:rgba(215, 215, 215, 0.722);
+    border: none;
+    border-left: 2px solid rgba(97, 97, 97, 0.763);
+    color:black;
+}
+.user-Data p{
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    align-items: center;
+}
+.div{
+    display: none;
+}
+.table-button button{
+    margin-top: 8px;
+}
+.user-face{
+    padding: 0px 5px 0px 5px;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 97.8%;
+    margin-left: 13px;
+    padding: 10px 0px 5px 0px ;
+}
+.nav-container button{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid rgba(173, 173, 182, 0.763);
+    color: white;
+}
+.nom-burtgel .nav-container{
+    margin-top: 48px;
+}
+.nom-burtgel .nav-container .backbtn{
+    background-color: rgb(88, 86, 86);
+}
+.burtgel-cont form{
+    display: grid;
+    column-gap: 117px;
+    grid-template-columns: repeat(4,1fr);
+}
+.san-Zahialga .nav-container{
+    margin-top: 48px;
+}
+.san-Zahialga .nav-container .backbtn{
+    background-color: rgb(88, 86, 86);
+}
+.U-BOok{
+    display: flex;
+}
+.con-flex{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
